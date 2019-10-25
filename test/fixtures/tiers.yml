@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  stack_level: 1
+  start_quantity: 1
+  end_quantity: 1
+  tier_discount_percent: 1
+  customer: one
+
+two:
+  stack_level: 1
+  start_quantity: 1
+  end_quantity: 1
+  tier_discount_percent: 1
+  customer: two

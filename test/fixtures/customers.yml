@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  quantity_of_items: 1
+  sqr_ft_per_item: 1
+  value_per_item: 1
+  flat_fee_per_item: 1
+  charge_per_square_foot: 1
+  charge_percent_of_value: 1
+  general_discount_percent: 1
+
+two:
+  name: MyString
+  quantity_of_items: 1
+  sqr_ft_per_item: 1
+  value_per_item: 1
+  flat_fee_per_item: 1
+  charge_per_square_foot: 1
+  charge_percent_of_value: 1
+  general_discount_percent: 1
