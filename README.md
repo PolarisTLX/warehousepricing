@@ -18,10 +18,10 @@ This is a project written in Ruby-on-Rails as an API with an endpoint to quote a
 
 Example: `http://localhost:3000/api/v1/customers/4/total_cost/300`
 
-Customer "A" is `:customer_id` of 1
-Customer "B" is `:customer_id` of 2
-Customer "C" is `:customer_id` of 3
-Customer "D" is `:customer_id` of 4
+- Customer "A" is `:customer_id` of 1
+- Customer "B" is `:customer_id` of 2
+- Customer "C" is `:customer_id` of 3
+- Customer "D" is `:customer_id` of 4
 
 `:num_items` can be any number of items you wish to calculate the total cost for.
 
@@ -34,3 +34,5 @@ Results will look like:
     "total_cost": 5346.0
 }
 ```
+
+![Alt text](Warehouse.jpg?raw=true "Screenshot")
