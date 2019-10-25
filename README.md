@@ -3,18 +3,18 @@
 This is a project written in Ruby-on-Rails as an API with an endpoint to quote a customer's expected storage price given n storage items.
 
 # Project dependencies:
--Ruby version: 2.5.5p157
--Rails version: 5.2.3
+- Ruby version: 2.5.5p157
+- Rails version: 5.2.3
 
 # To Run The Project:
--open your terminal / command-prompt
--type `git clone https://github.com/PolarisTLX/warehousepricing.git` to clone the project.
--type `cd warehousepricing` to move into the project directory
--type `rails db:migrate` to create the database
--type `rails db:seed` to load the starting data
--start the server with the command `rails s`
+- open your terminal / command-prompt
+- type `git clone https://github.com/PolarisTLX/warehousepricing.git` to clone the project.
+- type `cd warehousepricing` to move into the project directory
+- type `rails db:migrate` to create the database
+- type `rails db:seed` to load the starting data
+- start the server with the command `rails s`
 
--Using Postman (or other tool to make API requests), you can make a GET request to get the total cost for a customer with the endpoint: `http://localhost:3000/api/v1/customers/:customer_id/total_cost/:num_items` (replacing the values of `:customer_id` and `:num_items`).
+- Using Postman (or other tool to make API requests), you can make a GET request to get the total cost for a customer with the endpoint: `http://localhost:3000/api/v1/customers/:customer_id/total_cost/:num_items` (replacing the values of `:customer_id` and `:num_items`).
 
 Example: `http://localhost:3000/api/v1/customers/4/total_cost/300`
 
